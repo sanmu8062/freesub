@@ -5,18 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "129.151.64.169",
-      "server_port": 31867,
+      "tag": "🇮🇷 IR 01 - xiaohe",
+      "server": "138.124.25.250",
+      "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": false
+        "insecure": true
       },
       "transport": {
         "type": "ws",
-        "path": "/files",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -27,14 +26,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
