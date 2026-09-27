@@ -5,14 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.15.103",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "172.67.182.245",
       "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "uuid": "96e341a7-3077-4613-b482-41bd9c90cc4d",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
+        "server_name": "eZaCCesS-proJEcT-4C7950.Ez-dC9bBB.WorKErs.dEV",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "/eyJqdW5rIjoiN2w4dDlRNVV5NkZ5NU1aeSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "server9.9966338.xyz"
+          "Host": "ezaccess-project-4c7950.ez-dc9bbb.workers.dev"
         }
       }
     },
@@ -31,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
