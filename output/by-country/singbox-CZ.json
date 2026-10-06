@@ -4,28 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.21.16.123",
+      "server": "31.57.109.102",
       "server_port": 443,
-      "password": "Telegram_healer_config",
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "fzo5i.ir46.90k.hh.ov0.kdns.fr",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/tr/qL8YIeH28wNcXfNTPgLCwOhNFEr?ed=2560",
+        "path": "/glasspanel/guest000_0_5de14443985f/",
         "headers": {
-          "Host": "7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev"
+          "Host": "fzo5i.ir46.90k.hh.ov0.kdns.fr"
         }
       }
     },
