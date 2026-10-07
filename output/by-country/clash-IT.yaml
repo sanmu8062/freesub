@@ -36,20 +36,12 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇮🇹 意大利 (Italy) 04 - xiaohe
-  server: 172.64.52.173
-  port: 2087
+  server: 57.131.48.45
+  port: 8388
   udp: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
 proxy-groups:
 - name: PROXIES
   type: select

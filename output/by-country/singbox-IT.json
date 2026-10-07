@@ -52,26 +52,12 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
-      "server": "172.64.52.173",
-      "server_port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-        }
-      }
+      "server": "57.131.48.45",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
     },
     {
       "type": "selector",
